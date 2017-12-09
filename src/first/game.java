@@ -13,10 +13,10 @@ public class game {
 		String version ="0.0.1";
 		
 		
-        System.out.println("ПК версия  настольной игры манчкин запущена");
-        System.out.println("Текущая версия "+version);
-        System.out.println("Меню");
-        System.out.println("1.Старт игры");
-        System.out.println("2.Выход из программы");
+        System.out.println("PC version of the board game Munchkin launched");
+        System.out.println("Current version "+version);
+        System.out.println("Menu");
+        System.out.println("1.Start game");
+        System.out.println("2.Exit");
     }
 }
