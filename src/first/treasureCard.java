@@ -9,6 +9,24 @@ public class treasureCard {
 		Integer CountOfHand; //количество необходимых рук
 		Boolean IsBigSize; //Большая ли шмотка
 		String constraints;  // ограничения по  классу/рассе/професии/полу
+		String description; // описание карты
+		
+		
+	
+	public 	treasureCard(String NameCard,Integer Bonus, Integer Cost, String TypeOfTreasure, Integer CountOfHand, Boolean IsBigSize, String constraints,String description) {
+		this.GeneralCardType="Сокровища";
+		this.NameCard=NameCard;
+		this.Bonus=Bonus;
+		this.Cost=Cost;
+		this.TypeOfTreasure=TypeOfTreasure;
+		this.CountOfHand=CountOfHand;
+		this.IsBigSize=IsBigSize;
+		this.constraints=constraints;
+		this.description=description;
+	}
+		
+		
+	/**
 	
 	void setParam(String NameCardx,Integer Bonusx, Integer Costx, String TypeOfTreasurex, Integer CountOfHandx, Boolean IsBigSizex, String constraintsx) {
 		GeneralCardType="Сокровища";
@@ -21,6 +39,7 @@ public class treasureCard {
 		constraints=constraintsx;
 	}
 	
+	**/
 	
 	
 	void getInfo() {
@@ -33,6 +52,7 @@ public class treasureCard {
 		System.out.println("CountOfHand: "+ CountOfHand);
 		System.out.println("IsBigSize: "+ IsBigSize);
 		System.out.println("constraints: "+ constraints);
+		System.out.println("description: "+ description);
 }
 
 

@@ -19,6 +19,31 @@ public class characterCard {
 	String  hiddenCArd; // скрыте карты на руках
 	
 	
+	
+	public characterCard(String NickName, String gender, Integer level, String race) {
+		this.GeneralCardType="Игрок";
+		this.NickName=NickName;
+		this.gender=gender; 
+		this.level= level; 
+		this.fightingPower=level;
+		this.race=race; 
+		this.profession = null; 
+		this.head = null; 
+		this.body = null; 
+		this.leftHand = null;
+		this.rightHand = null; 
+		this.Legs = null; 
+		this.TheBlessing = null; 
+		this.Curses = null; 
+		this.inventory = null; 
+		this.hiddenCArd = null;	
+		
+	}
+	
+	
+	
+	/**
+	
 	void setParam(String NickNamex, String genderx, Integer levelx, String racex) {
 		GeneralCardType="Игрок";
 		NickName=NickNamex;
@@ -38,6 +63,8 @@ public class characterCard {
 		//String inventory; 
 		//String  hiddenCArd; 
 	}
+	
+	**/
 	
 	void getInfo() {
 		System.out.println("");
